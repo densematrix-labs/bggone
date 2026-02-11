@@ -52,7 +52,7 @@ export default function DropZone({ onFileSelect, isProcessing, disabled }: DropZ
   return (
     <div className={styles.wrapper}>
       <motion.div
-        {...getRootProps()}
+        {...getRootProps({ refKey: 'ref' })}
         className={`${styles.dropzone} ${isDragActive ? styles.active : ''} ${isDragReject ? styles.reject : ''} ${isProcessing ? styles.processing : ''}`}
         whileHover={{ scale: disabled || isProcessing ? 1 : 1.01 }}
         whileTap={{ scale: disabled || isProcessing ? 1 : 0.99 }}
