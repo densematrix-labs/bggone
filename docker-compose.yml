@@ -1,0 +1,40 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "30065:80"
+    environment:
+      - VITE_API_URL=http://backend:30066
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "30066:30066"
+    environment:
+      - HOST=0.0.0.0
+      - PORT=30066
+      - FREE_DAILY_LIMIT=5
+      - CREEM_API_KEY=${CREEM_API_KEY:-}
+      - CREEM_WEBHOOK_SECRET=${CREEM_WEBHOOK_SECRET:-}
+      - TOOL_NAME=bggone
+    volumes:
+      - rembg_cache:/root/.u2net
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:30066/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+
+volumes:
+  rembg_cache:

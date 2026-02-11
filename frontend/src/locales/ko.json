@@ -1,0 +1,133 @@
+{
+  "nav": {
+    "home": "홈",
+    "pricing": "가격"
+  },
+  "hero": {
+    "title": "최고의 무료 remove.bg 대안",
+    "subtitle": "이미지 배경을 즉시 제거. 가입 불필요. 무료 HD 출력.",
+    "feature1": "무료 HD 출력",
+    "feature2": "가입 불필요",
+    "feature3": "매일 5회 무료"
+  },
+  "dropzone": {
+    "title": "이미지를 여기에 드롭하세요",
+    "subtitle": "또는 클릭하여 선택",
+    "button": "이미지 선택",
+    "hint": "PNG, JPG, WebP, GIF 지원 (최대 20MB)",
+    "drop": "놓으세요!",
+    "processing": "배경 제거 중...",
+    "processingHint": "AI가 처리 중입니다",
+    "errorSize": "파일이 너무 큽니다. 최대 20MB입니다.",
+    "errorType": "지원하지 않는 형식입니다. PNG, JPG, WebP, GIF를 사용하세요."
+  },
+  "preview": {
+    "original": "원본",
+    "processed": "배경 제거됨",
+    "hoverHint": "호버하여 원본 보기",
+    "download": "PNG 다운로드",
+    "another": "다른 이미지 처리"
+  },
+  "usage": {
+    "remaining": "오늘 남은 횟수:",
+    "limitReached": "오늘의 무료 횟수를 모두 사용했습니다",
+    "upgrade": "업그레이드하여 무제한 사용",
+    "resetHint": "리셋 시간:"
+  },
+  "how": {
+    "title": "사용 방법",
+    "step1Title": "이미지 업로드",
+    "step1Desc": "드래그 앤 드롭 또는 클릭하여 이미지를 업로드하세요.",
+    "step2Title": "AI 처리",
+    "step2Desc": "AI가 이미지를 분석하고 배경을 정밀하게 제거합니다.",
+    "step3Title": "결과 다운로드",
+    "step3Desc": "투명 배경 이미지를 받으세요. 원본 해상도, 워터마크 없음."
+  },
+  "comparison": {
+    "title": "왜 {{competitor}} 대신 BgGone인가?",
+    "feature": "기능",
+    "freeHD": "무료 고해상도",
+    "noSignup": "가입 불필요",
+    "dailyFree": "일일 무료 횟수",
+    "hdLimit": "HD 출력 제한",
+    "price": "가격",
+    "batchProcess": "일괄 처리",
+    "unlimited": "무제한",
+    "times": "회",
+    "time": "회"
+  },
+  "pricing": {
+    "title": "간단하고 투명한 가격",
+    "subtitle": "무료로 시작. 필요할 때 업그레이드.",
+    "popular": "인기",
+    "oneTime": "일회성",
+    "monthly": "/월",
+    "currentPlan": "현재 플랜",
+    "getStarted": "시작하기",
+    "guarantee": "30일 환불 보장.",
+    "free": {
+      "name": "무료",
+      "feature1": "하루 5장",
+      "feature2": "풀 HD 해상도",
+      "feature3": "워터마크 없음",
+      "feature4": "즉시 처리"
+    },
+    "pack20": {
+      "name": "스타터 팩",
+      "feature1": "20장 크레딧",
+      "feature2": "풀 HD 해상도",
+      "feature3": "만료 없음",
+      "feature4": "우선 처리"
+    },
+    "unlimited": {
+      "name": "무제한",
+      "feature1": "무제한 이미지",
+      "feature2": "풀 HD 해상도",
+      "feature3": "일괄 처리",
+      "feature4": "API 접근"
+    }
+  },
+  "paymentSuccess": {
+    "title": "결제 완료!",
+    "message": "구매해 주셔서 감사합니다. 크레딧이 추가되었습니다.",
+    "startUsing": "BgGone 사용 시작",
+    "note": "영수증이 이메일로 발송되었습니다."
+  },
+  "feedback": {
+    "question": "경험은 어떠셨나요?",
+    "thanks": "피드백 감사합니다!"
+  },
+  "vs": {
+    "subtitle": "2026년 BgGone과 {{competitor}} 비교",
+    "whyChoose": "왜 BgGone인가?",
+    "reason1Title": "진정한 무료 HD",
+    "reason1Desc": "무료로 풀 해상도 출력. 500px 제한 없음.",
+    "reason2Title": "계정 불필요",
+    "reason2Desc": "업로드만 하면 됩니다. 이메일도 가입도 필요 없음.",
+    "reason3Title": "초고속",
+    "reason3Desc": "최첨단 AI로 즉각적인 결과.",
+    "tryNow": "BgGone 무료 체험",
+    "moreComparisons": "더 많은 비교"
+  },
+  "alternative": {
+    "notFound": "용도를 찾을 수 없습니다",
+    "backHome": "홈으로 돌아가기",
+    "whyBgGone": "BgGone이 최적인 이유",
+    "overRemoveBg": "remove.bg 대비 장점",
+    "freeHD": "무료 HD 출력",
+    "freeHDDesc": "무료로 풀 해상도 이미지. 500px 제한 없음.",
+    "noSignup": "가입 불필요",
+    "noSignupDesc": "즉시 사용 시작. 계정 생성 불필요.",
+    "affordable": "합리적인 가격",
+    "affordableDesc": "더 필요할 때도 공정하고 투명한 가격.",
+    "tryNow": "BgGone 무료 체험"
+  },
+  "footer": {
+    "tagline": "HD 출력 지원 무료 remove.bg 대안",
+    "product": "제품",
+    "compare": "비교",
+    "legal": "법적 고지",
+    "privacy": "개인정보 처리방침",
+    "terms": "이용약관"
+  }
+}

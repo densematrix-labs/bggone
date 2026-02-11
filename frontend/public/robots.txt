@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://bggone.demo.densematrix.ai/sitemap.xml

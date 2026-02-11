@@ -1,0 +1,133 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "pricing": "Preise"
+  },
+  "hero": {
+    "title": "Die Beste Kostenlose remove.bg Alternative",
+    "subtitle": "Hintergründe sofort entfernen. Keine Anmeldung. Kostenlose HD-Ausgabe.",
+    "feature1": "Kostenlose HD-Ausgabe",
+    "feature2": "Keine Anmeldung",
+    "feature3": "5 Gratis-Nutzungen Täglich"
+  },
+  "dropzone": {
+    "title": "Bild hier ablegen",
+    "subtitle": "oder klicken zum Durchsuchen",
+    "button": "Bild Auswählen",
+    "hint": "Unterstützt PNG, JPG, WebP, GIF bis 20MB",
+    "drop": "Loslassen!",
+    "processing": "Hintergrund wird entfernt...",
+    "processingHint": "KI arbeitet",
+    "errorSize": "Datei zu groß. Maximal 20MB.",
+    "errorType": "Ungültiger Dateityp. Bitte PNG, JPG, WebP oder GIF verwenden."
+  },
+  "preview": {
+    "original": "Original",
+    "processed": "Hintergrund Entfernt",
+    "hoverHint": "Hover für Original",
+    "download": "PNG Herunterladen",
+    "another": "Weiteres Verarbeiten"
+  },
+  "usage": {
+    "remaining": "Verbleibende Gratis-Nutzungen:",
+    "limitReached": "Tageslimit erreicht",
+    "upgrade": "Upgrade für unbegrenzte Nutzung",
+    "resetHint": "Zurücksetzen um"
+  },
+  "how": {
+    "title": "So Funktioniert Es",
+    "step1Title": "Bild Hochladen",
+    "step1Desc": "Ziehen und ablegen oder klicken zum Hochladen eines Bildes.",
+    "step2Title": "KI-Verarbeitung",
+    "step2Desc": "Unsere KI analysiert Ihr Bild und entfernt den Hintergrund präzise.",
+    "step3Title": "Ergebnis Herunterladen",
+    "step3Desc": "Erhalten Sie Ihr Bild mit transparentem Hintergrund. Volle Auflösung, keine Wasserzeichen."
+  },
+  "comparison": {
+    "title": "Warum BgGone statt {{competitor}}?",
+    "feature": "Funktion",
+    "freeHD": "Kostenlos HD",
+    "noSignup": "Keine Anmeldung",
+    "dailyFree": "Gratis-Nutzungen pro Tag",
+    "hdLimit": "HD-Ausgabelimit",
+    "price": "Preis",
+    "batchProcess": "Stapelverarbeitung",
+    "unlimited": "Unbegrenzt",
+    "times": "mal",
+    "time": "mal"
+  },
+  "pricing": {
+    "title": "Einfache, Transparente Preise",
+    "subtitle": "Kostenlos starten. Upgraden bei Bedarf.",
+    "popular": "Beliebteste",
+    "oneTime": "einmalig",
+    "monthly": "/Monat",
+    "currentPlan": "Aktueller Plan",
+    "getStarted": "Loslegen",
+    "guarantee": "30 Tage Geld-zurück-Garantie.",
+    "free": {
+      "name": "Kostenlos",
+      "feature1": "5 Bilder pro Tag",
+      "feature2": "Volle HD-Auflösung",
+      "feature3": "Keine Wasserzeichen",
+      "feature4": "Sofortige Verarbeitung"
+    },
+    "pack20": {
+      "name": "Starter-Paket",
+      "feature1": "20 Bild-Credits",
+      "feature2": "Volle HD-Auflösung",
+      "feature3": "Läuft nie ab",
+      "feature4": "Prioritätsverarbeitung"
+    },
+    "unlimited": {
+      "name": "Unbegrenzt",
+      "feature1": "Unbegrenzte Bilder",
+      "feature2": "Volle HD-Auflösung",
+      "feature3": "Stapelverarbeitung",
+      "feature4": "API-Zugang"
+    }
+  },
+  "paymentSuccess": {
+    "title": "Zahlung Erfolgreich!",
+    "message": "Vielen Dank für Ihren Kauf. Ihre Credits wurden hinzugefügt.",
+    "startUsing": "BgGone Jetzt Nutzen",
+    "note": "Eine Quittung wurde an Ihre E-Mail gesendet."
+  },
+  "feedback": {
+    "question": "Wie war Ihre Erfahrung?",
+    "thanks": "Danke für Ihr Feedback!"
+  },
+  "vs": {
+    "subtitle": "Vergleichen Sie BgGone mit {{competitor}} in 2026",
+    "whyChoose": "Warum BgGone Wählen?",
+    "reason1Title": "Wirklich Kostenloses HD",
+    "reason1Desc": "Volle Auflösung ohne zu zahlen. Kein 500px-Limit.",
+    "reason2Title": "Kein Konto Nötig",
+    "reason2Desc": "Einfach hochladen und los. Keine E-Mail, keine Anmeldung.",
+    "reason3Title": "Blitzschnell",
+    "reason3Desc": "Modernste KI für sofortige Ergebnisse.",
+    "tryNow": "BgGone Jetzt Kostenlos Testen",
+    "moreComparisons": "Weitere Vergleiche"
+  },
+  "alternative": {
+    "notFound": "Anwendungsfall nicht gefunden",
+    "backHome": "Zurück zur Startseite",
+    "whyBgGone": "Warum BgGone Perfekt Für Sie Ist",
+    "overRemoveBg": "Vorteile Gegenüber remove.bg",
+    "freeHD": "Kostenlose HD-Ausgabe",
+    "freeHDDesc": "Volle Auflösung kostenlos. Kein 500px-Limit.",
+    "noSignup": "Keine Anmeldung",
+    "noSignupDesc": "Sofort loslegen. Kein Konto erstellen nötig.",
+    "affordable": "Faire Preise",
+    "affordableDesc": "Wenn Sie mehr brauchen, sind unsere Preise fair und transparent.",
+    "tryNow": "BgGone Jetzt Kostenlos Testen"
+  },
+  "footer": {
+    "tagline": "Kostenlose remove.bg Alternative mit HD-Ausgabe",
+    "product": "Produkt",
+    "compare": "Vergleichen",
+    "legal": "Rechtliches",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen"
+  }
+}

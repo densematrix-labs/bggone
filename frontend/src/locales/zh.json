@@ -1,0 +1,133 @@
+{
+  "nav": {
+    "home": "首页",
+    "pricing": "定价"
+  },
+  "hero": {
+    "title": "最佳免费 remove.bg 替代品",
+    "subtitle": "一键移除图片背景。无需注册。免费高清输出。",
+    "feature1": "免费高清输出",
+    "feature2": "无需注册",
+    "feature3": "每日5次免费"
+  },
+  "dropzone": {
+    "title": "将图片拖放到这里",
+    "subtitle": "或点击选择文件",
+    "button": "选择图片",
+    "hint": "支持 PNG、JPG、WebP、GIF，最大 20MB",
+    "drop": "松开上传！",
+    "processing": "正在移除背景...",
+    "processingHint": "AI 正在处理中",
+    "errorSize": "文件太大。最大支持 20MB。",
+    "errorType": "文件格式不支持。请使用 PNG、JPG、WebP 或 GIF。"
+  },
+  "preview": {
+    "original": "原图",
+    "processed": "已移除背景",
+    "hoverHint": "悬停查看原图",
+    "download": "下载 PNG",
+    "another": "处理另一张"
+  },
+  "usage": {
+    "remaining": "今日剩余次数：",
+    "limitReached": "今日免费次数已用完",
+    "upgrade": "升级获取无限次数",
+    "resetHint": "重置时间："
+  },
+  "how": {
+    "title": "使用方法",
+    "step1Title": "上传图片",
+    "step1Desc": "拖放或点击上传图片。支持 PNG、JPG、WebP、GIF。",
+    "step2Title": "AI 处理",
+    "step2Desc": "AI 立即分析图片并精准移除背景。",
+    "step3Title": "下载结果",
+    "step3Desc": "获取透明背景图片。原始分辨率，无水印。"
+  },
+  "comparison": {
+    "title": "为什么选择 BgGone 而不是 {{competitor}}？",
+    "feature": "功能",
+    "freeHD": "免费高清输出",
+    "noSignup": "无需注册",
+    "dailyFree": "每日免费次数",
+    "hdLimit": "高清输出限制",
+    "price": "价格",
+    "batchProcess": "批量处理",
+    "unlimited": "无限制",
+    "times": "次",
+    "time": "次"
+  },
+  "pricing": {
+    "title": "简单透明的定价",
+    "subtitle": "免费开始。按需升级。",
+    "popular": "最受欢迎",
+    "oneTime": "一次性",
+    "monthly": "/月",
+    "currentPlan": "当前方案",
+    "getStarted": "立即开始",
+    "guarantee": "30天无条件退款保证。",
+    "free": {
+      "name": "免费版",
+      "feature1": "每日5张图片",
+      "feature2": "完整高清分辨率",
+      "feature3": "无水印",
+      "feature4": "即时处理"
+    },
+    "pack20": {
+      "name": "入门包",
+      "feature1": "20张图片额度",
+      "feature2": "完整高清分辨率",
+      "feature3": "永不过期",
+      "feature4": "优先处理"
+    },
+    "unlimited": {
+      "name": "无限版",
+      "feature1": "无限张图片",
+      "feature2": "完整高清分辨率",
+      "feature3": "批量处理",
+      "feature4": "API 接入"
+    }
+  },
+  "paymentSuccess": {
+    "title": "支付成功！",
+    "message": "感谢您的购买。额度已添加到您的账户。",
+    "startUsing": "开始使用 BgGone",
+    "note": "收据已发送到您的邮箱。"
+  },
+  "feedback": {
+    "question": "您的体验如何？",
+    "thanks": "感谢您的反馈！"
+  },
+  "vs": {
+    "subtitle": "看看 BgGone 与 {{competitor}} 在 2026 年的对比",
+    "whyChoose": "为什么选择 BgGone？",
+    "reason1Title": "真正免费的高清",
+    "reason1Desc": "获取完整分辨率输出，无需付费。没有 500px 限制。",
+    "reason2Title": "无需账号",
+    "reason2Desc": "直接上传使用。无需邮箱，无需注册。",
+    "reason3Title": "闪电速度",
+    "reason3Desc": "尖端 AI 技术，即时出结果。",
+    "tryNow": "免费试用 BgGone",
+    "moreComparisons": "更多对比"
+  },
+  "alternative": {
+    "notFound": "未找到该用途",
+    "backHome": "返回首页",
+    "whyBgGone": "为什么 BgGone 非常适合您",
+    "overRemoveBg": "相比 remove.bg 的优势",
+    "freeHD": "免费高清输出",
+    "freeHDDesc": "获取完整分辨率图片，无需付费。没有 500px 限制。",
+    "noSignup": "无需注册",
+    "noSignupDesc": "立即开始使用。无需创建账号。",
+    "affordable": "价格实惠",
+    "affordableDesc": "需要更多时，我们的定价公平透明。",
+    "tryNow": "免费试用 BgGone"
+  },
+  "footer": {
+    "tagline": "免费 remove.bg 替代品，支持高清输出",
+    "product": "产品",
+    "compare": "对比",
+    "legal": "法律",
+    "privacy": "隐私政策",
+    "terms": "服务条款"
+  }
+}

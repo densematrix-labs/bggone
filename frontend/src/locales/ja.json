@@ -1,0 +1,133 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "pricing": "料金"
+  },
+  "hero": {
+    "title": "最高の無料 remove.bg 代替ツール",
+    "subtitle": "画像の背景を瞬時に削除。登録不要。高解像度出力が無料。",
+    "feature1": "無料HD出力",
+    "feature2": "登録不要",
+    "feature3": "毎日5回無料"
+  },
+  "dropzone": {
+    "title": "画像をここにドロップ",
+    "subtitle": "またはクリックして選択",
+    "button": "画像を選択",
+    "hint": "PNG、JPG、WebP、GIF（最大20MB）",
+    "drop": "ドロップ！",
+    "processing": "背景を削除中...",
+    "processingHint": "AIが処理しています",
+    "errorSize": "ファイルが大きすぎます。最大20MBです。",
+    "errorType": "対応していない形式です。PNG、JPG、WebP、GIFをお使いください。"
+  },
+  "preview": {
+    "original": "オリジナル",
+    "processed": "背景削除済み",
+    "hoverHint": "ホバーでオリジナルを表示",
+    "download": "PNGをダウンロード",
+    "another": "別の画像を処理"
+  },
+  "usage": {
+    "remaining": "本日の残り回数：",
+    "limitReached": "本日の無料回数を使い切りました",
+    "upgrade": "アップグレードで無制限に",
+    "resetHint": "リセット時刻："
+  },
+  "how": {
+    "title": "使い方",
+    "step1Title": "画像をアップロード",
+    "step1Desc": "ドラッグ＆ドロップまたはクリックで画像をアップロード。",
+    "step2Title": "AI処理",
+    "step2Desc": "AIが画像を分析し、背景を正確に削除します。",
+    "step3Title": "結果をダウンロード",
+    "step3Desc": "透明背景の画像を取得。フル解像度、透かしなし。"
+  },
+  "comparison": {
+    "title": "なぜ{{competitor}}よりBgGoneを選ぶのか？",
+    "feature": "機能",
+    "freeHD": "無料高解像度",
+    "noSignup": "登録不要",
+    "dailyFree": "1日の無料回数",
+    "hdLimit": "HD出力制限",
+    "price": "価格",
+    "batchProcess": "一括処理",
+    "unlimited": "無制限",
+    "times": "回",
+    "time": "回"
+  },
+  "pricing": {
+    "title": "シンプルで透明な料金",
+    "subtitle": "無料で始める。必要に応じてアップグレード。",
+    "popular": "人気",
+    "oneTime": "買い切り",
+    "monthly": "/月",
+    "currentPlan": "現在のプラン",
+    "getStarted": "始める",
+    "guarantee": "30日間返金保証。",
+    "free": {
+      "name": "無料",
+      "feature1": "1日5枚まで",
+      "feature2": "フルHD解像度",
+      "feature3": "透かしなし",
+      "feature4": "即時処理"
+    },
+    "pack20": {
+      "name": "スターターパック",
+      "feature1": "20枚のクレジット",
+      "feature2": "フルHD解像度",
+      "feature3": "有効期限なし",
+      "feature4": "優先処理"
+    },
+    "unlimited": {
+      "name": "無制限",
+      "feature1": "無制限の画像",
+      "feature2": "フルHD解像度",
+      "feature3": "一括処理",
+      "feature4": "APIアクセス"
+    }
+  },
+  "paymentSuccess": {
+    "title": "お支払い完了！",
+    "message": "ご購入ありがとうございます。クレジットが追加されました。",
+    "startUsing": "BgGoneを使い始める",
+    "note": "領収書をメールでお送りしました。"
+  },
+  "feedback": {
+    "question": "ご利用はいかがでしたか？",
+    "thanks": "フィードバックありがとうございます！"
+  },
+  "vs": {
+    "subtitle": "2026年のBgGoneと{{competitor}}の比較",
+    "whyChoose": "なぜBgGoneを選ぶのか？",
+    "reason1Title": "本当に無料のHD",
+    "reason1Desc": "フル解像度出力が無料。500pxの制限なし。",
+    "reason2Title": "アカウント不要",
+    "reason2Desc": "アップロードするだけ。メールも登録も不要。",
+    "reason3Title": "超高速",
+    "reason3Desc": "最先端AIで瞬時に結果を取得。",
+    "tryNow": "BgGoneを無料で試す",
+    "moreComparisons": "その他の比較"
+  },
+  "alternative": {
+    "notFound": "用途が見つかりません",
+    "backHome": "ホームに戻る",
+    "whyBgGone": "BgGoneが最適な理由",
+    "overRemoveBg": "remove.bgに対する優位性",
+    "freeHD": "無料HD出力",
+    "freeHDDesc": "フル解像度画像が無料。500px制限なし。",
+    "noSignup": "登録不要",
+    "noSignupDesc": "すぐに使い始められます。アカウント作成不要。",
+    "affordable": "手頃な価格",
+    "affordableDesc": "もっと必要な時も、公正で透明な価格設定。",
+    "tryNow": "BgGoneを無料で試す"
+  },
+  "footer": {
+    "tagline": "HD出力対応の無料remove.bg代替ツール",
+    "product": "製品",
+    "compare": "比較",
+    "legal": "法的情報",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約"
+  }
+}
