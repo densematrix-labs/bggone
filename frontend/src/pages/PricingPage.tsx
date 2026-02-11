@@ -17,41 +17,54 @@ export default function PricingPage() {
   const { t } = useTranslation()
   const [loading, setLoading] = useState<string | null>(null)
   
+  // Pricing based on competitor analysis - 70-82% cheaper than remove.bg
   const tiers: PricingTier[] = [
     {
       sku: 'free',
       name: t('pricing.free.name'),
       price: '$0',
       features: [
-        t('pricing.free.feature1'),
-        t('pricing.free.feature2'),
-        t('pricing.free.feature3'),
-        t('pricing.free.feature4'),
+        t('pricing.free.feature1'),  // 5 images/day
+        t('pricing.free.feature2'),  // Full HD resolution
+        t('pricing.free.feature3'),  // No signup
+        t('pricing.free.feature4'),  // Instant processing
       ],
     },
     {
-      sku: 'pack_20',
-      name: t('pricing.pack20.name'),
-      price: '$4.99',
+      sku: 'starter_50',
+      name: t('pricing.starter.name'),
+      price: '$2.99',
       priceNote: t('pricing.oneTime'),
       features: [
-        t('pricing.pack20.feature1'),
-        t('pricing.pack20.feature2'),
-        t('pricing.pack20.feature3'),
-        t('pricing.pack20.feature4'),
+        t('pricing.starter.feature1'),  // 50 credits
+        t('pricing.starter.feature2'),  // $0.06/image (73% cheaper than remove.bg)
+        t('pricing.starter.feature3'),  // Never expires
+        t('pricing.starter.feature4'),  // Priority processing
+      ],
+    },
+    {
+      sku: 'pro_200',
+      name: t('pricing.pro.name'),
+      price: '$6.99',
+      priceNote: t('pricing.oneTime'),
+      features: [
+        t('pricing.pro.feature1'),  // 200 credits
+        t('pricing.pro.feature2'),  // $0.035/image (82% cheaper!)
+        t('pricing.pro.feature3'),  // Never expires
+        t('pricing.pro.feature4'),  // Priority processing
       ],
       popular: true,
     },
     {
-      sku: 'unlimited',
+      sku: 'unlimited_monthly',
       name: t('pricing.unlimited.name'),
-      price: '$9.99',
+      price: '$4.99',
       priceNote: t('pricing.monthly'),
       features: [
-        t('pricing.unlimited.feature1'),
-        t('pricing.unlimited.feature2'),
-        t('pricing.unlimited.feature3'),
-        t('pricing.unlimited.feature4'),
+        t('pricing.unlimited.feature1'),  // Unlimited images
+        t('pricing.unlimited.feature2'),  // Best value
+        t('pricing.unlimited.feature3'),  // Cancel anytime
+        t('pricing.unlimited.feature4'),  // Priority support
       ],
     },
   ]

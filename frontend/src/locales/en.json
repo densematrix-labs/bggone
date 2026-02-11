@@ -58,33 +58,40 @@
   },
   "pricing": {
     "title": "Simple, Transparent Pricing",
-    "subtitle": "Start free. Upgrade when you need more.",
-    "popular": "Most Popular",
+    "subtitle": "70-82% cheaper than remove.bg. Start free, upgrade when you need more.",
+    "popular": "Best Value",
     "oneTime": "one-time",
     "monthly": "/month",
     "currentPlan": "Current Plan",
     "getStarted": "Get Started",
     "guarantee": "30-day money-back guarantee. No questions asked.",
     "free": {
-      "name": "Free",
+      "name": "Free Forever",
       "feature1": "5 images per day",
-      "feature2": "Full HD resolution",
-      "feature3": "No watermarks",
-      "feature4": "Instant processing"
+      "feature2": "Full HD resolution (no 500px limit!)",
+      "feature3": "No signup required",
+      "feature4": "Instant AI processing"
     },
-    "pack20": {
+    "starter": {
       "name": "Starter Pack",
-      "feature1": "20 image credits",
-      "feature2": "Full HD resolution",
-      "feature3": "Never expires",
+      "feature1": "50 image credits",
+      "feature2": "$0.06/image (73% cheaper than remove.bg)",
+      "feature3": "Credits never expire",
+      "feature4": "Priority processing"
+    },
+    "pro": {
+      "name": "Pro Pack",
+      "feature1": "200 image credits",
+      "feature2": "$0.035/image (82% cheaper!)",
+      "feature3": "Credits never expire",
       "feature4": "Priority processing"
     },
     "unlimited": {
       "name": "Unlimited",
       "feature1": "Unlimited images",
-      "feature2": "Full HD resolution",
-      "feature3": "Batch processing",
-      "feature4": "API access"
+      "feature2": "Best value for power users",
+      "feature3": "Cancel anytime",
+      "feature4": "Priority support"
     }
   },
   "paymentSuccess": {

@@ -23,11 +23,12 @@ router = APIRouter(prefix="/api/v1/payment", tags=["payment"])
 # Creem API configuration
 CREEM_API_BASE = "https://api.creem.io" if not settings.CREEM_API_KEY.startswith("creem_test_") else "https://test-api.creem.io"
 
-# Product configurations
+# Product configurations (based on competitor pricing analysis)
+# remove.bg charges $0.225/image, we charge $0.035-0.06 (70-82% cheaper)
 PRODUCTS = {
-    "pack_5": {"name": "5 Credits Pack", "credits": 5, "price_cents": 299},
-    "pack_20": {"name": "20 Credits Pack", "credits": 20, "price_cents": 499},
-    "unlimited": {"name": "Unlimited Monthly", "credits": -1, "price_cents": 999},  # -1 = unlimited
+    "starter_50": {"name": "Starter Pack (50 Credits)", "credits": 50, "price_cents": 299},   # $0.06/image
+    "pro_200": {"name": "Pro Pack (200 Credits)", "credits": 200, "price_cents": 699},        # $0.035/image
+    "unlimited_monthly": {"name": "Unlimited Monthly", "credits": -1, "price_cents": 499},   # -1 = unlimited
 }
 
 
