@@ -25,6 +25,27 @@ export interface RemoveBgResult {
   dailyLimit: number
 }
 
+export interface DemoStatus {
+  intro_enabled: boolean
+  updated_at: number | null
+  run_id: string | null
+}
+
+/**
+ * Check live demo feature state.
+ */
+export async function getDemoStatus(): Promise<DemoStatus> {
+  const response = await fetch(`${API_BASE}/api/v1/demo/status`, {
+    cache: 'no-store',
+  })
+
+  if (!response.ok) {
+    return { intro_enabled: false, updated_at: null, run_id: null }
+  }
+
+  return response.json()
+}
+
 /**
  * Check current rate limit status for the device.
  */

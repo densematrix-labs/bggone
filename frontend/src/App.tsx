@@ -5,6 +5,7 @@ import LoadingSpinner from './components/LoadingSpinner'
 
 const HomePage = lazy(() => import('./pages/HomePage'))
 const PricingPage = lazy(() => import('./pages/PricingPage'))
+const IntroPage = lazy(() => import('./pages/IntroPage'))
 const PaymentSuccessPage = lazy(() => import('./pages/PaymentSuccessPage'))
 const PrivacyPage = lazy(() => import('./pages/PrivacyPage'))
 const TermsPage = lazy(() => import('./pages/TermsPage'))
@@ -18,6 +19,7 @@ function App() {
         <Route element={<Layout />}>
           <Route path="/" element={<HomePage />} />
           <Route path="/pricing" element={<PricingPage />} />
+          <Route path="/intro" element={<IntroPage />} />
           <Route path="/payment/success" element={<PaymentSuccessPage />} />
           <Route path="/privacy" element={<PrivacyPage />} />
           <Route path="/terms" element={<TermsPage />} />
