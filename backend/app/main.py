@@ -4,7 +4,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 
 from app.config import settings
-from app.api.v1 import remove_bg, health, payment, demo
+from app.api.v1 import remove_bg, health, payment
 from app.metrics import metrics_router
 
 
@@ -42,7 +42,6 @@ app.add_middleware(
 app.include_router(health.router)
 app.include_router(remove_bg.router)
 app.include_router(payment.router)
-app.include_router(demo.router)
 app.include_router(metrics_router)
 
 
